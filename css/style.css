@@ -127,7 +127,7 @@ html {
 
 .grade_list{ overflow: hidden; background: #dfdfdf;}
 .grade_list h2{  text-align: center; font-size: 2.0em; line-height: 30px; font-weight: normal;}
-.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ display: block; text-align: center;  font-size: 1.8em;   line-height: 60px;}
+.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ display: block; text-align: center;  font-size: 1.8em; line-height: 60px;}
 .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{ display: block; text-align: center; line-height: 26px; font-size: 1.6em;}
 .grade_list_two_vs_two .type_left ,.grade_list_two_vs_two .type_right{ padding:4px 0px;}
 .grade_list_type1 .type_left{background: #293e85; }
@@ -137,10 +137,10 @@ html {
 .grade_list_type1 .type_center{background:#293E85 url(../images/bisai_left.jpg) no-repeat center  right;}
 .grade_list_type1 .type_right{ background: #dfdfdf;}
 .grade_list_type1 .type_right a{ color: #C43539;}
-.type_center  h3{ font-size: 1.6em; font-weight: normal;  height: 26px; line-height: 26px; border: #FFFFFF solid 1px; text-align: center; line-height: 26px; 
+.type_center  h3{ font-size: 1.5em;  font-weight: normal;  height: 26px; line-height: 26px; border: #FFFFFF solid 1px; text-align: center; line-height: 26px; 
   border-radius: 4px; margin: 6px 0px 4px;
 }
-.type_center  h3 a{ color: #FFFFFF;}
+.type_center  h3 a{ color: #FFFFFF; font-weight:500;}
 .type_center_logo img{ width: 100%;}
 .type_center_text{ font-size: 1.4em;  color: #FFFFFF;}
 .grade_list_type2 .type_center{ background: #c63336 url(../images/bisai_right.jpg) no-repeat center left;}
