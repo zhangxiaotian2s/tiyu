@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Math1</title>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1,user-scalable=0, minimum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<link rel="prefetch" href="jifenban.html" /> 
+	</head>
+
+	<body>
+		<!--header-->
+		<header class="headertop row">
+			<div class="col-xs-2">
+				<a href="#">
+					<img src="images/nav_bk.png" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-8">
+				<h1 class="text-center">Math 1</h1>
+			</div>
+			<div class="col-xs-2"></div>
+		</header>
+		<!--//header-->
+		<!--nav2-->
+		<nav class="nav2 row">
+			<div class="col-xs-6 col-xs-offset-3 ">
+				<div class="tab_btn">
+					<div class="col-xs-6 text-center current"><a href="gailan.html">概览</a>
+					</div>
+					<div class="col-xs-6 text-center"><a href="jifenban.html">计分卡</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3 text-center refresh_a"><a href="#">刷新</a>
+			</div>
+		</nav>
+		<!--//nav2-->
+		<div class="wrap_nr">
+			<div class="game_gl_box">
+				<!--个人赛-->
+				<!--<h2>个人赛</h2>
+			<div class="row game_gl_content" id="one_to_one">
+				<div class="col-xs-4 game_gl_left">
+					<a href="#">
+						<img src="images/men_1.jpg">
+					</a>
+					<p>
+						<a href="#">王慧荣</a>
+					</p>
+				</div>
+				<div class="col-xs-4 game_gl_center">
+					<div class="col-xs-6 col-xs-offset-3">
+						<img src="images/game_logo.jpg" class="img-responsive">
+						<p>win2&1</p>
+					</div>
+				</div>
+				<div class="col-xs-4 game_gl_right">
+					<a href="#">
+						<img src="images/men_1.jpg">
+					</a>
+					<p>
+						<a href="#">王慧荣</a>
+					</p>
+
+				</div>
+			</div>-->
+				<!--个人赛&四球赛-->
+				<h2>四人赛</h2>
+				<div class="row game_gl_content" id="two_to_two">
+					<div class="col-xs-4 game_gl_left">
+						<a href="#">
+							<img src="images/men_1.jpg">
+						</a>
+						<p>
+							<a href="#">王慧荣</a>
+						</p>
+						<a href="#">
+							<img src="images/men_1.jpg">
+						</a>
+						<p>
+							<a href="#">王慧荣</a>
+						</p>
+					</div>
+					<div class="col-xs-4 game_gl_center">
+						<div class="col-xs-6 col-xs-offset-3">
+							<img src="images/game_logo.jpg" class="img-responsive">
+							<p>win2&1</p>
+						</div>
+					</div>
+					<div class="col-xs-4 game_gl_right">
+						<a href="#">
+							<img src="images/men_1.jpg">
+						</a>
+						<p>
+							<a href="#">王慧荣</a>
+						</p>
+						<a href="#">
+							<img src="images/men_1.jpg">
+						</a>
+						<p>
+							<a href="#">王慧荣</a>
+						</p>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<script>
+			$(document).ready(function() {
+				var win_h = $(window).height();
+				var game_top = $('.wrap_nr').offset().top;
+				var g_g_c = win_h - game_top-36;
+				$('.game_gl_content ,.game_gl_left ,.game_gl_center,.game_gl_right').css('height', g_g_c)
+				$('.game_gl_center img').css('margin-top', g_g_c / 2 - 20)
+				$('#one_to_one .game_gl_left img,#one_to_one .game_gl_right img').css('margin-top', g_g_c / 2 - 50)
+				$('#two_to_two .game_gl_left img,#two_to_two .game_gl_right img').css('margin-top', g_g_c / 4 - 50)
+			})
+		</script>
+
+	</body>
+
+</html>
