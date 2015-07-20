@@ -98,10 +98,8 @@ html {
 .game_gl_left{height: 100%; background: #293E85;}
 .game_gl_left p,.game_gl_right p{ width: 100%; text-align: center; margin: 5px auto; font-size: 1.6em; }
 .game_gl_left p a{ color:#FFFFFF;}
-
 .game_gl_right{height: 100%; }
 .game_gl_right p a{ color:#000;}
-
 .game_gl_left img ,.game_gl_right img{ display: block; width: 80%; margin:  auto;}
 
 
