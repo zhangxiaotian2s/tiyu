@@ -17,7 +17,7 @@
 		<!--header-->
 		<header class="headertop row">
 			<div class="col-xs-2">
-				<a href="grade_list.html">
+				<a href="javascript:void(0)" id="back_btn">
 					<img src="images/nav_bk.png" class="img-responsive">
 				</a>
 			</div>
@@ -122,6 +122,9 @@
 				$('.game_gl_center img').css('margin-top', g_g_c / 2 - 20)
 				$('#one_to_one .game_gl_left img,#one_to_one .game_gl_right img').css('margin-top', g_g_c / 2 - 50)
 				$('#two_to_two .game_gl_left img,#two_to_two .game_gl_right img').css('margin-top', g_g_c / 4 - 50)
+			})
+			$('#back_btn').on('tap',function(){
+				window.history.back()
 			})
 		</script>
 

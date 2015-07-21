@@ -15,7 +15,7 @@
 		<!--header-->
 		<header class="headertop row">
 			<div class="col-xs-2">
-				<a href="grade_list.html">
+				<a href="javascript:void(0)" id="back_btn">
 					<img src="images/nav_bk.png" class="img-responsive">
 				</a>
 			</div>
@@ -253,6 +253,9 @@
 				hScroll: true,
 				bounce: true
 			});
+			$('#back_btn').on('tap',function(){
+				window.history.back()
+			})
 		</script>
 
 	</body>
