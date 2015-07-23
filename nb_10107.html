@@ -9,13 +9,14 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 		<meta name="format-detection" content="telephone=no" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/zepto.min.js" ></script>
 	</head>
 
 	<body>
 		<!--header-->
 		<header class="headertop row">
 			<div class="col-xs-2">
-				<a href="grade_list.html">
+			<a href="javascript:void(0)" id="back_btn">
 					<img src="images/nav_bk.png" class="img-responsive">
 				</a>
 			</div>
@@ -71,6 +72,13 @@
           </div>
           <div class="blank-15"></div>
 		</div>
+		<script>
+		  $('#back_btn').on('tap',function(){
+		  	window.history.back()
+		  })
+			
+			
+		</script>
 		<!--//introduction-->
 	</body>
 
