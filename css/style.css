@@ -1,18 +1,38 @@
-*{ margin: 0; padding: 0 ; font-family: "微软雅黑" verdana;}
+*{margin: 0; padding: 0; font-family:verdana;
+   /*处理BUG*/
+    -webkit-tap-highlight-color: transparent;  
+    -webkit-appearance: none;   
+    }
+a{ text-decoration: none;}
 li{ list-style: none;}
-a{text-decoration: none;}
-input{ outline: none;}
-/*摘录常用bootstrp css*/
-a:active,
-a:hover {
-  outline: 0;
+a:hover{
+	
 }
-.clear{height: 0px; overflow: hidden; clear: both;}
-html {
-  font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+/*全局设置字号*/
+html{font-size:10px}
+@media screen and (min-width:320px) and (max-width:375px){html{font-size:13px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:15px}}
+@media screen and (min-width:415px) {html{font-size:18px}}
+/*开启硬件加速*/
+.Ac{
+   -webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
 }
-.img-responsive{ display: block;max-width: 100%;height: auto;}
+/*常用配置*/
+.wrap{ max-width: 640px; margin: auto;}
+.bk_grey{ background: #F6F6F6;}
+.clearfix:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+.clear{clear: both;}
+.img-responsive{ display: block;max-width: 100%;height: auto; margin: auto;}
 .img-circle{border-radius:50%}
 .text-left{text-align:left}
 .text-right{text-align:right}
@@ -22,13 +42,10 @@ html {
   clear: both;
 }
 .blank-15{ height: 15px;clear: both; overflow: hidden;}
-
 .bk_white{ background: #FFFFFF;}
 .bk_gray{ background: #f6f6f6;}
-
 .col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9
 {float:left}
-
 .col-xs-12{width:100%}
 .col-xs-11{width:91.66666667%}
 .col-xs-10{width:83.33333333%}
@@ -58,32 +75,33 @@ html {
 .headertop{ overflow: hidden;  height: auto;  background:#ff6666;}
 .headertop h1{ width: 100%; height: auto; font-size: 2.4em; line-height: 58px; color: #FFFFFF;}
 
+
 /*game_notice_page*/
 .wrap_nr{ overflow: hidden;background: #f6f6f6;}
-.nav1{ height: 46px; line-height: 46px; border-bottom: #cdcdcd solid 1px; overflow: hidden;}
+.nav1{ height: 46px; line-height: 46px; border-bottom: #cdcdcd solid 1px; overflow: hidden; background: #FFFFFF;}
 .nav1 div{ text-align: center;}
-.nav1 div a{color: #242424; font-size: 2.0em;}
+.nav1 div a{color: #242424; font-size: 1.2rem;}
 .nav1 div a.current{ color: #FF6666;}
 .tj_game { overflow: hidden; background: #FFFFFF; padding: 10px 0px; height: auto; border-bottom: #cdcdcd solid 1px;}
 .tj_game div img{ display: block; width: 90%; max-width: 286px; margin:5px auto;}
-.tj_game div p{ font-size: 1.4em; margin: 5px 10px;}
+.tj_game div p{ font-size: 1.0rem; margin: 5px 10px;}
 .tj_game div p.zhu{ color: #999999;}
 .game_notice_list{ height: 380px ; min-height: 380px;  overflow: hidden;}
-.game_notice_list h2{ text-align: center; font-size: 1.8em; line-height: 40px;}
+.game_notice_list h2{ text-align: center; font-size: 1.2rem; line-height: 40px;}
 .one_game_notice{ background: #FFFFFF;   border-radius: 4px;  border:#cdcdcd solid 1px; overflow: hidden; width: 94%; margin:  auto;
  margin-bottom: 10px;}
-.one_game_notice time{ display: block;  line-height: 40px; font-size: 1.4em;}
+.one_game_notice time{ display: block;  line-height: 40px; font-size: 1.2rem;}
 .game_vs{ overflow: hidden; border-top: #cdcdcd solid 1px;}
 .game_vs div{ text-align: center; padding: 10px 0px;}
-.game_vs a{ font-size: 1.4em; display: block;  margin: 4px auto;}
+.game_vs a{ font-size: 1.1rem; display: block;  margin: 4px auto;}
 .left_team a{ color: #2e3c83;}
 .right_team a{ color: #c43539;}
-.center_vs{ line-height: 100%; font-size: 1.4em; line-height: 30px;  }
+.center_vs{ line-height: 100%; font-size: 1.2rem; line-height: 30px;  }
 .game_vs .vs2{ line-height: 46px;}
 
 
 /*赛事 概览*/
-.nav2{ margin: 12px 0px; height: 36px; line-height: 36px;font-size:1.8em ;}
+.nav2{ margin: 12px 0px; height: 36px; line-height: 2.0rem;font-size:1.2rem ;}
 .tab_btn{ border:#999999 solid 1px ; overflow: hidden; border-radius: 4px;}
 .tab_btn div a{ color: #666666;}
 .tab_btn div.current{background: #999999;}
@@ -91,12 +109,12 @@ html {
 .refresh_a a{ color: #FF6666; }
 
 .game_gl_box{ background: #F6F6F6; border-top: #e0e0e0 solid 1px;}
-.game_gl_box h2{ text-align: center; font-size: 1.8em; font-weight: normal; height: 36px; line-height: 36px;}
+.game_gl_box h2{ text-align: center; font-size: 1.2rem; font-weight: normal; height: 36px; line-height: 2.2rem;}
 .game_gl_content{ min-height: 420px; height: 420px;}
 .game_gl_center{  height: 100%; background:#293e85 url(../images/bk_gl.jpg) no-repeat center right; background-size:contain; }
-.game_gl_center div p{ text-align: center; font-size: 1.6em; color: #FFFFFF; margin: 5px auto;}
+.game_gl_center div p{ text-align: center; font-size: 1.1rem; color: #FFFFFF; margin: 5px auto;}
 .game_gl_left{height: 100%; background: #293E85;}
-.game_gl_left p,.game_gl_right p{ width: 100%; text-align: center; margin: 5px auto; font-size: 1.6em; }
+.game_gl_left p,.game_gl_right p{ width: 100%; text-align: center; margin: 5px auto; font-size: 1.1rem; }
 .game_gl_left p a{ color:#FFFFFF;}
 .game_gl_right{height: 100%; }
 .game_gl_right p a{ color:#000;}
@@ -107,12 +125,12 @@ html {
 .tj_game_grade{ overflow: hidden; }
 .tj_game_win{ background: #293e85;color: #FFFFFF; }
 .tj_game_logo img{ width: 90%; margin: 8px auto;  }
-.tj_game_title{  line-height:36px;  text-align: center;font-size: 1.6em;}
+.tj_game_title{  line-height:36px;  text-align: center;font-size: 1.2rem;}
 .tj_game_win .tj_game_title{ border-top: #FFFFFF solid 1px; }
-.tj_game_win_cup img{ width: 90%;  margin: 2px auto;}
-.tj_game_grade_num{ font-size: 2.8em;padding-top: 8px;  text-align: center;}
+.tj_game_win_cup img{ width: 80%;  margin: 2px auto;}
+.tj_game_grade_num{ font-size: 2.0rem; line-height: 3.4rem;  text-align: center;}
 .tj_game_nume_events{ position: relative; }
-.tj_game_nume_events span{ display: block; position: absolute; font-size: 1.6em;}
+.tj_game_nume_events span{ display: block; position: absolute; font-size: 1.2rem;}
 .tj_game_num_one{ top: 6px; left: 5px;}
 .tj_game_num_tow { right: 5px; top: 28px;}
 .tj_game_num_line{ height: 0px; margin-top: 26px; overflow: hidden; width: 100%; border-bottom:#FFFFFF solid 1px; transform: rotate(-45deg);
@@ -123,23 +141,23 @@ html {
 .tj_game_lost .tj_game_title{ border-top:#cccccc solid 1px;}
 
 .grade_list{ overflow: hidden; background: #dfdfdf;}
-.grade_list h2{  text-align: center; font-size: 2.0em; line-height: 30px; font-weight: normal;}
-.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ display: block; text-align: center;  font-size: 1.8em; line-height: 60px;}
-.grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{ display: block; text-align: center; line-height: 26px; font-size: 1.6em;}
-.grade_list_two_vs_two .type_left ,.grade_list_two_vs_two .type_right{ padding:4px 0px;}
+.grade_list h2{  text-align: center; font-size: 1.2rem; line-height: 30px; font-weight: normal;}
+.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ display: block; text-align: center;  font-size: 1.2rem; line-height: 74px;}
+.grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{ display: block; text-align: center; line-height: 33px; font-size: 1.2rem;}
+.grade_list_two_vs_two .type_left,.grade_list_two_vs_two .type_right{ padding:4px 0px;}
 .grade_list_type1 .type_left{background: #293e85; }
 .grade_list_type1 .type_left a{ color: #FFFFFF;}
-.type_center{  height:60px;   background-size: contain;}
+.type_center{  height:74px;   background-size: contain;}
 .type_center img{ width: 100%;}
 .grade_list_type1 .type_center{background:#293E85 url(../images/bisai_left.jpg) no-repeat center  right;}
 .grade_list_type1 .type_right{ background: #dfdfdf;}
 .grade_list_type1 .type_right a{ color: #C43539;}
-.type_center  h3{ font-size: 1.5em;  font-weight: normal;  height: 26px; line-height: 26px; border: #FFFFFF solid 1px; text-align: center; line-height: 26px; 
+.type_center  h3{ font-size: 1.1rem; line-height: 1.6rem;  font-weight: normal;   border: #FFFFFF solid 1px; text-align: center; 
   border-radius: 4px; margin: 6px 0px 4px;
 }
 .type_center  h3 a{ color: #FFFFFF; font-weight:500;}
 .type_center_logo img{ width: 100%;}
-.type_center_text{ font-size: 1.4em;  color: #FFFFFF;}
+.type_center_text{ font-size: 1.1rem;  color: #FFFFFF;}
 .grade_list_type2 .type_center{ background: #c63336 url(../images/bisai_right.jpg) no-repeat center left;}
 .grade_list_type2 .type_right { background: #C63336;}
 .grade_list_type2 .type_right  a{ color: #FFFFFF;}
@@ -150,29 +168,29 @@ html {
 .grade_list_type3 .type_center .type_center_text{color: #000000;}
 .grade_list_type3 .type_left a{ color: #293E85;}
 
-#fix_h2{ display: none; position: fixed; top: 0px; left: 0px; width: 100%; height:30px ; line-height: 30px; font-size: 2.0em; text-align: center; background: #dfdfdf;}
+#fix_h2{ display: none; position: fixed; top: 0px; left: 0px; width: 100%; height:30px ; line-height: 30px; font-size: 1.2rem; text-align: center; background: #dfdfdf;}
 
 /*jifenban*/
 /*#wrap_nr{ background: #FFFFFF!important;}*/
 .jifenban{ background: #f6f6f6; }
-.jifenban h2{ background: #FFFFFF; text-align: center; height: 30px; line-height: 30px;border-top: #e0e0e0 solid 1px;border-bottom: #e0e0e0 solid 1px;font-weight: normal;}
+.jifenban h2{ background: #FFFFFF; text-align: center; height: 30px; line-height: 30px;border-top: #e0e0e0 solid 1px;border-bottom: #e0e0e0 solid 1px;font-weight: normal; font-size: 1rem;}
 .jifenba_box{ overflow: hidden;}
 .jifenban_left{  box-shadow: 3px 0px 3px #CCCCCC; z-index: 2; position:relative; background: #FFFFFF;}
-.jifenban_left ul li{ height: 32px; line-height: 32px; padding-left: 10px; font-size: 1.6em; background: #F6F6F6;}
+.jifenban_left ul li{ height: 32px; line-height: 32px; padding-left: 10px; font-size: 1.0rem; background: #F6F6F6;}
 .jifenban_left ul li.bk_white{ background: #FFFFFF;}
 .jifenban_left ul li a{ color: #293E85;}
 .jifenban_left ul li a.color_rd{ color: #C43539;}
-.jifenban_left_bottom{ width: 100%; background: #F6F6F6;   position: absolute; bottom: 0px; left: 0px; height: 120px; font-size: 1.6em; line-height: 60px; text-align: center;}
+.jifenban_left_bottom{ width: 100%; background: #F6F6F6;   position: absolute; bottom: 0px; left: 0px; height: 120px; font-size: 1.1rem; line-height: 60px; text-align: center;}
 #jifenban{ position: relative; background: #FFFFFF;}
 .jifenban_right_scroll{ position: absolute;}
 .jifenban_right_box{position: relative; width:622px ; padding: 0px;}
 .jifenban_right_box ul { overflow: hidden; padding: 0px 5px;}
-.jifenban_right_box ul li{float: left; font-size: 1.6em; width: 30px; height: 22px; text-align: center; margin: 5px 2px; line-height: 22px;}
+.jifenban_right_box ul li{float: left; font-size: 1.0rem; width: 30px; height: 22px; text-align: center; margin: 5px 2px; line-height: 22px;}
 .jifenban_right_box ul li.mark1{ background: #C43539; color: #FFFFFF;}
 .jifenban_right_box ul li.mark2{ background: #2E3C83;  color: #FFFFFF;}
 .jifenban_right_box ul.jifenban_two li{ margin: 21px 2px;}
 .jifenban_right_bottom{background: #F6F6F6; position: absolute;bottom: 0px; left:0px; height: 110px; padding-top: 10px;  width: 100%;} 
-.jifenban_right_bottom ul li{float: left; font-size: 1.4em; width: 30px;  text-align: center; margin: 0px 2px; height: 20px; line-height: 20px; }
+.jifenban_right_bottom ul li{float: left; font-size: 1.0rem; width: 30px;  text-align: center; margin: 0px 2px; height: 20px; line-height: 20px; }
 .jifenban_right_bottom ul li img{ width: 100%;}
 .ts_hd{ width: 200px;}
 .ts_hd img{ width: 80%; margin: 5px 0px 0px 40px;}
@@ -181,33 +199,41 @@ html {
 /**/
 .peopele_tags { margin-top: 10px; overflow: hidden; position: relative; padding-bottom: 10px;}
 .peopele_tags div img{width: 90%; margin:0 5%; display: block;}
-.peopele_tags ul li{ font-size: 1.6em; line-height: 28px;}
+.peopele_tags ul li{ font-size: 1.1rem; line-height: 28px;}
 .people_tags_NO{  position: absolute; right: 2%; bottom: 10px; width: 44%; padding: 0px 2%; 
-background:#cccccc;height: 24px;   line-height: 24px; font-size: 1.6em;}
+background:#cccccc;height: 24px;   line-height: 24px; font-size: 1.1rem;}
 .people_tags_NO span{ float: right;}
 .people_mes_box{ background: #f0f0f0; width: 96%;  overflow: hidden; padding: 0px 2% ;}
 
-.people_mes_box h2{ height: 36px; line-height: 36px; font-size: 1.6em;  font-weight: normal; color: #c9c9c9;}
+.people_mes_box h2{ height: 36px; line-height: 36px; font-size: 1.1rem;  font-weight: normal; color: #c9c9c9;}
 .introduction_box,.img_list_box{ border-radius:6px ; background: #FFFFFF; overflow: hidden; }
-.introduction_box  p{ padding:  5px; line-height: 26px;  font-size: 1.6em;}
-
+.introduction_box  p{ padding:  5px; line-height: 26px;  font-size: 1rem;}
 .img_list_box ul li{ width: 21%; margin: 5px 2%;  float: left;}
 .img_list_box ul li img{ width: 100%; border-radius:4px ; display: block; }
-/**/
 
-@media only screen and (min-width: 0px) and (max-width: 320px) {
-	.headertop{  height: 50px;  background:#ff6666;}
+@media only screen and (min-width: 0px) and (max-width: 321px) {
+	/*.headertop{  height: 50px;  background:#ff6666;}
 	.headertop h1{  line-height: 50px;}
-	.nav1 div a{ font-size: 1.6em;}
-	.tj_game div p{ font-size: 1.2em; margin: 4px 10px;}
-	.tj_game_grade_num{ padding-top: 6px;}
 	.tj_game_num_one{ top: 6px; left: 2px;}
     .tj_game_num_tow { right: 2px; top: 24px;}
     .peopele_tags ul li{ font-size: 1.4em;line-height: 24px;) 	
     .people_tags_NO{ font-size: 1.4em;}
-    .introduction_box  p{ font-size: 1.4em; line-height: 24px;}
+    .introduction_box  p{ font-size: 1.4em; line-height: 24px;}*/
+    .grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ line-height: 60px;}
+    .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{line-height: 26px; }
+    .type_center{  height:60px;  }
+
 }
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-    .nav1 div a{ font-size: 1.8em;}
+	
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+	.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ line-height: 60px;}
+    .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{line-height: 26px; }
+    .type_center{  height:60px;  }
 }
+@media only screen and (min-width: 376px) and (max-width: 415px) {
+	.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ line-height: 64px;}
+    .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{line-height: 27px; }
+    .type_center{  height:64px;  }
+}
+
 

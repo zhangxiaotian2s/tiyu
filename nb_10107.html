@@ -9,14 +9,14 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 		<meta name="format-detection" content="telephone=no" />
 		<link rel="stylesheet" href="css/style.css" />
-		<script type="text/javascript" src="js/zepto.min.js" ></script>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
 	</head>
 
-	<body>
+	<body class="bk_gray">
 		<!--header-->
 		<header class="headertop row">
 			<div class="col-xs-2">
-			<a href="javascript:void(0)" id="back_btn">
+				<a href="javascript:void(0)" id="back_btn">
 					<img src="images/nav_bk.png" class="img-responsive">
 				</a>
 			</div>
@@ -27,57 +27,77 @@
 		</header>
 		<!--//header-->
 		<!--tags-->
-		<div class="row peopele_tags">
-			<div class="col-xs-6">
-				<img src="images/img01.png">
+		<div class="wrap">
+			<div class="row peopele_tags">
+				<div class="col-xs-6">
+					<img src="images/img01.png">
+				</div>
+				<div class="col-xs-6 ">
+					<ul>
+						<li>Tickets:1196</li>
+						<li>Name:阿桌 </li>
+						<li>Height:170cm</li>
+						<li>From:上海</li>
+						<li>Constellation:双子座</li>
+					</ul>
+				</div>
+				<div class="people_tags_NO">NO.1017 <span>Voted</span></div>
 			</div>
-			<div class="col-xs-6 ">
-				<ul>
-					<li>Tickets:1196</li>
-					<li>Name:阿桌 </li>
-					<li>Height:170cm</li>
-					<li>From:上海</li>
-					<li>Constellation:双子座</li>
-				</ul>
-			</div>
-			<div class="people_tags_NO">NO.1017 <span>Voted</span></div>
-		</div>
-		<!--//tags-->
-		<!--introduction-->
-		<div class="people_mes_box">
-			<h2>brief introduction</h2>
-			<div class="row introduction_box">
-				<p>阿桌阿桌阿桌阿桌阿桌阿桌阿桌阿桌阿桌阿桌
-					<br /> 阿桌阿桌阿桌阿桌阿桌
-					<br /> 阿桌阿桌阿桌阿桌
-					<br /> 阿桌阿桌 阿桌
-					<br />
-				</p>
+			<!--//tags-->
+			<!--introduction-->
+			<div class="people_mes_box">
+				<h2>brief introduction</h2>
+				<div class="row introduction_box">
+					<p>阿桌阿桌阿桌阿桌阿桌阿桌阿桌阿桌阿桌阿桌
+						<br /> 阿桌阿桌阿桌阿桌阿桌
+						<br /> 阿桌阿桌阿桌阿桌
+						<br /> 阿桌阿桌 阿桌
+						<br />
+					</p>
 
+				</div>
+				<h2>brief introduction</h2>
+				<div class="row img_list_box">
+					<ul>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="images/img01.png"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="blank-15"></div>
 			</div>
-			<h2>brief introduction</h2>
-          <div class="row img_list_box">
-          	 <ul>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 	<li><a href="#"><img src="images/img01.png"></a></li>
-          	 </ul>
-          </div>
-          <div class="blank-15"></div>
 		</div>
 		<script>
-		  $('#back_btn').on('tap',function(){
-		  	window.history.back()
-		  })
-			
-			
+			$('#back_btn').on('tap', function() {
+				window.history.back()
+			})
 		</script>
 		<!--//introduction-->
 	</body>

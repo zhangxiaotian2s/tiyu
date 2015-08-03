@@ -11,7 +11,8 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<script type="text/javascript" src="js/zepto.min.js"></script>
 	</head>
-	<body>
+
+	<body class="bk_gray">
 		<!--header-->
 		<header class="headertop row">
 			<div class="col-xs-2">
@@ -26,455 +27,458 @@
 		</header>
 		<!--//header-->
 		<!--nav-->
-		<nav class="nav1 row">
-			<div class="col-xs-3">
-				<a href="grade_list.html" class="current">成绩</a>
+		<div class="wrap">
+			<nav class="nav1 row">
+				<div class="col-xs-3">
+					<a href="grade_list.html" class="current">成绩</a>
+				</div>
+				<div class="col-xs-3">
+					<a href="#">公告</a>
+				</div>
+				<div class="col-xs-3">
+					<a href="#">新闻</a>
+				</div>
+				<div class="col-xs-3">
+					<a href="chufabiao.html">出发表</a>
+				</div>
+			</nav>
+			<!--//nav-->
+			<!--tuijian game-->
+
+			<div id="game_notice_line"></div>
+			<!--//tuijian game-->
+			<!--game list-->
+			<div class="tj_game_grade row" data-url='gailan.html'>
+				<div class="col-xs-6 tj_game_win">
+					<div class="row">
+						<div class="col-xs-4 tj_game_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-2 tj_game_win_cup">
+							<img src="images/win_cup.png">
+						</div>
+						<div class="col-xs-6">
+							<div class="col-xs-6  tj_game_grade_num">
+								16
+							</div>
+							<div class="col-xs-5 tj_game_nume_events">
+								<span class="tj_game_num_one">1</span>
+								<span class="tj_game_num_tow">2</span>
+								<div class="tj_game_num_line"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row tj_game_title">
+						高球公社
+					</div>
+				</div>
+				<div class="col-xs-6 tj_game_lost">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="col-xs-6  tj_game_grade_num">
+								11
+							</div>
+							<div class="col-xs-5 tj_game_nume_events">
+								<span class="tj_game_num_one">1</span>
+								<span class="tj_game_num_tow">2</span>
+								<div class="tj_game_num_line"></div>
+							</div>
+						</div>
+
+						<div class="col-xs-4 col-xs-offset-2 tj_game_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<!--此处木有奖杯了-->
+					</div>
+					<div class="row tj_game_title">
+						高球公社
+					</div>
+
+				</div>
 			</div>
-			<div class="col-xs-3">
-				<a href="#">公告</a>
-			</div>
-			<div class="col-xs-3">
-				<a href="#">新闻</a>
-			</div>
-			<div class="col-xs-3">
-				<a href="chufabiao.html">出发表</a>
-			</div>
-		</nav>
-		<!--//nav-->
-		<!--tuijian game-->
-		<div id="game_notice_line"></div>
-		<!--//tuijian game-->
-		<!--game list-->
-		<div class="tj_game_grade row" data-url='gailan.html'>
-			<div class="col-xs-6 tj_game_win">
+			<div class="grade_list">
+				<h2 id="tit_h2_1">周日个人赛</h2>
+
+				<div class="row grade_list_type1 grade_list_one_vs_one">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_one_to_one.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_one_to_one.html">TDSh 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_one_to_one.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+				<div class="row grade_list_type2 grade_list_one_vs_one">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_one_to_one.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_one_to_one.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_one_to_one.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+
+				<div class="row grade_list_type3 grade_list_one_vs_one">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_one_to_one.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_one_to_one.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_one_to_one.html">古巨基</a>
+					</div>
+				</div>
 				<div class="row">
-					<div class="col-xs-4 tj_game_logo">
-						<img src="images/game_logo.jpg" class="img-responsive">
+					<a href="">
+						<img src="images/gg.jpg" class="img-responsive">
+					</a>
+				</div>
+				<h2 id="tit_h2_2">周日四人人赛</h2>
+
+				<div class="row grade_list_type1 grade_list_one_vs_one">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_one_to_one.html">叶华斌</a>
 					</div>
-					<div class="col-xs-2 tj_game_win_cup">
-						<img src="images/win_cup.png">
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_one_to_one.html">TDSh 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
 					</div>
-					<div class="col-xs-6">
-						<div class="col-xs-6  tj_game_grade_num">
-							16
-						</div>
-						<div class="col-xs-5 tj_game_nume_events">
-							<span class="tj_game_num_one">1</span>
-							<span class="tj_game_num_tow">2</span>
-							<div class="tj_game_num_line"></div>
-						</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_one_to_one.html">古巨基</a>
 					</div>
 				</div>
-				<div class="row tj_game_title">
-					高球公社
+				<div class="blank-15"></div>
+				<div class="row grade_list_type2 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_two_to_two.html">叶华斌</a>
+						<a href="jifenban_two_to_two.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_two_to_two.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_two_to_two.html">古巨基</a>
+						<a href="jifenban_two_to_two.html">古巨基</a>
+					</div>
 				</div>
-			</div>
-			<div class="col-xs-6 tj_game_lost">
+				<div class="blank-15"></div>
+
+				<div class="row grade_list_type3 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_two_to_two.html">叶华斌</a>
+						<a href="jifenban_two_to_two.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_two_to_two.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_two_to_two.html">古巨基</a>
+						<a href="jifenban_two_to_two.html">古巨基</a>
+					</div>
+				</div>
 				<div class="row">
-					<div class="col-xs-6">
-						<div class="col-xs-6  tj_game_grade_num">
-							11
+					<a href="">
+						<img src="images/gg.jpg" class="img-responsive">
+					</a>
+				</div>
+				<h2 id="tit_h2_3">周日四球赛</h2>
+				<div class="row grade_list_type1 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
 						</div>
-						<div class="col-xs-5 tj_game_nume_events">
-							<span class="tj_game_num_one">1</span>
-							<span class="tj_game_num_tow">2</span>
-							<div class="tj_game_num_line"></div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
 						</div>
 					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+				<div class="row grade_list_type2 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
 
-					<div class="col-xs-4 col-xs-offset-2 tj_game_logo">
-						<img src="images/game_logo.jpg" class="img-responsive">
+				<div class="row grade_list_type3 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
 					</div>
-					<!--此处木有奖杯了-->
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
 				</div>
-				<div class="row tj_game_title">
-					高球公社
+				<div class="row grade_list_type1 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+				<div class="row grade_list_type2 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+
+				<div class="row grade_list_type3 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="row grade_list_type3 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="row grade_list_type1 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+				<div class="row grade_list_type2 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
+				</div>
+				<div class="blank-15"></div>
+
+				<div class="row grade_list_type3 grade_list_two_vs_two">
+					<div class="col-xs-3 type_left">
+						<a href="jifenban_four.html">叶华斌</a>
+						<a href="jifenban_four.html">叶华斌</a>
+					</div>
+					<div class="col-xs-6 type_center">
+						<div class="col-xs-8 col-xs-offset-2">
+							<h3><a href="jifenban_four.html">Match 1</a></h3>
+						</div>
+						<div class="clear"></div>
+						<div class="col-xs-2 col-xs-offset-2 type_center_logo">
+							<img src="images/game_logo.jpg" class="img-responsive">
+						</div>
+						<div class="col-xs-6 text-center type_center_text">
+							wins 2&1
+						</div>
+					</div>
+					<div class="col-xs-3 type_right">
+						<a href="jifenban_four.html">古巨基</a>
+						<a href="jifenban_four.html">古巨基</a>
+					</div>
 				</div>
 
 			</div>
-		</div>
-		<div class="grade_list">
-			<h2 id="tit_h2_1">周日个人赛</h2>
+			<div id="fix_h2">
 
-			<div class="row grade_list_type1 grade_list_one_vs_one">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_one_to_one.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_one_to_one.html">TDSh 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_one_to_one.html">古巨基</a>
-				</div>
 			</div>
-			<div class="blank-15"></div>
-			<div class="row grade_list_type2 grade_list_one_vs_one">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_one_to_one.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_one_to_one.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_one_to_one.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-
-			<div class="row grade_list_type3 grade_list_one_vs_one">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_one_to_one.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_one_to_one.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_one_to_one.html">古巨基</a>
-				</div>
-			</div>
-			<div class="row">
-				<a href="">
-					<img src="images/gg.jpg" class="img-responsive">
-				</a>
-			</div>
-			<h2 id="tit_h2_2">周日四人人赛</h2>
-
-			<div class="row grade_list_type1 grade_list_one_vs_one">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_one_to_one.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_one_to_one.html">TDSh 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_one_to_one.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-			<div class="row grade_list_type2 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_two_to_two.html">叶华斌</a>
-					<a href="jifenban_two_to_two.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_two_to_two.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_two_to_two.html">古巨基</a>
-					<a href="jifenban_two_to_two.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-
-			<div class="row grade_list_type3 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_two_to_two.html">叶华斌</a>
-					<a href="jifenban_two_to_two.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_two_to_two.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_two_to_two.html">古巨基</a>
-					<a href="jifenban_two_to_two.html">古巨基</a>
-				</div>
-			</div>
-			<div class="row">
-				<a href="">
-					<img src="images/gg.jpg" class="img-responsive">
-				</a>
-			</div>
-			<h2 id="tit_h2_3">周日四球赛</h2>
-			<div class="row grade_list_type1 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-			<div class="row grade_list_type2 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-
-			<div class="row grade_list_type3 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="row grade_list_type1 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-			<div class="row grade_list_type2 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-
-			<div class="row grade_list_type3 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="row grade_list_type3 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="row grade_list_type1 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-			<div class="row grade_list_type2 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-			<div class="blank-15"></div>
-
-			<div class="row grade_list_type3 grade_list_two_vs_two">
-				<div class="col-xs-3 type_left">
-					<a href="jifenban_four.html">叶华斌</a>
-					<a href="jifenban_four.html">叶华斌</a>
-				</div>
-				<div class="col-xs-6 type_center">
-					<div class="col-xs-8 col-xs-offset-2">
-						<h3><a href="jifenban_four.html">Match 1</a></h3>
-					</div>
-					<div class="clear"></div>
-					<div class="col-xs-2 col-xs-offset-2 type_center_logo">
-						<img src="images/game_logo.jpg">
-					</div>
-					<div class="col-xs-6 text-center type_center_text">
-						wins 2&1
-					</div>
-				</div>
-				<div class="col-xs-3 type_right">
-					<a href="jifenban_four.html">古巨基</a>
-					<a href="jifenban_four.html">古巨基</a>
-				</div>
-			</div>
-
-		</div>
-		<div id="fix_h2">
-
 		</div>
 		<script>
 			$(function() {
@@ -486,6 +490,7 @@
 				document.addEventListener("touchstart", touchStart, false);
 				document.addEventListener("touchmove", touchMove, false);
 				document.addEventListener("touchend", touchEnd, false);
+
 				function touchStart(event) {
 					//					var touch = event.touches[0];
 					//					startY = touch.pageY;
@@ -513,9 +518,9 @@
 						fixh2.style.display = 'none'
 					}
 				}
+
 				function touchEnd(event) {}
 			})
-			
 			 $('.tj_game_grade').on('tap', function() {
 				window.location.href = this.getAttribute('data-url');
 			})
