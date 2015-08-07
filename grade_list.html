@@ -486,7 +486,7 @@
 				var fixh2 = document.getElementById("fix_h2")
 				var t1 = document.getElementById("tit_h2_1"),
 					t2 = document.getElementById("tit_h2_2"),
-					t3 = document.getElementById("tit_h2_3")
+					t3 = document.getElementById("tit_h2_3");
 				document.addEventListener("touchstart", touchStart, false);
 				document.addEventListener("touchmove", touchMove, false);
 				document.addEventListener("touchend", touchEnd, false);
@@ -505,6 +505,7 @@
 					var s_t1 = t1.offsetTop,
 						s_t2 = t2.offsetTop,
 						s_t3 = t3.offsetTop;
+						
 					if (s >= s_t1 && s < s_t2 - 60) {
 						fixh2.style.display = 'block'
 						fixh2.innerText = t1.innerText;

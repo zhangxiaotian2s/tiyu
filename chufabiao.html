@@ -104,6 +104,34 @@
 							</div>
 						</div>
 					</div>
+					<div class="one_game_notice">
+						<time class="col-xs-offset-1">08:00</time>
+						<div class="game_vs row">
+							<div class="col-xs-5 left_team">
+								<a href="">叶怀兵</a>
+								<a href="">叶兵</a>
+							</div>
+							<div class="col-xs-2 center_vs">VS</div>
+							<div class="col-xs-5 right_team">
+								<a href="">孙成套</a>
+								<a href="">孙成套</a>
+							</div>
+						</div>
+					</div>
+					<div class="one_game_notice">
+						<time class="col-xs-offset-1">08:00</time>
+						<div class="game_vs row">
+							<div class="col-xs-5 left_team">
+								<a href="">叶怀兵</a>
+								<a href="">叶兵</a>
+							</div>
+							<div class="col-xs-2 center_vs">VS</div>
+							<div class="col-xs-5 right_team">
+								<a href="">孙成套</a>
+								<a href="">孙成套</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -121,12 +149,7 @@
 					}
 				}
 				//规定one_game_notice的最低高度 解决 赛事少不能一整屏的问题
-				var win_h = $(window).height();
-				var wrap_h = $('.wrap_nr').height();
-				var wrap_top = $('.wrap_nr').offset().top;
-				if (win_h > (wrap_top + wrap_h)) {
-					$('.wrap_nr').css('height', win_h - wrap_top)
-				}
+			
 			})
 			 $('#back_btn').on('tap', function() {
 				window.history.back()
