@@ -223,6 +223,7 @@ background:#cccccc;height: 24px;   line-height: 24px; font-size: 1.1rem;}
     .grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ line-height: 60px;}
     .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{line-height: 26px; }
     .type_center{  height:60px;  }
+    .tj_game_win_cup img{ margin-top: 5px;}
 
 }
 	
@@ -231,11 +232,13 @@ background:#cccccc;height: 24px;   line-height: 24px; font-size: 1.1rem;}
 	.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ line-height: 60px;}
     .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{line-height: 26px; }
     .type_center{  height:60px;  }
+      .tj_game_win_cup img{ margin-top: 5px;}
 }
 @media only screen and (min-width: 376px) and (max-width: 415px) {
 	.grade_list_one_vs_one .type_left a,.grade_list_one_vs_one .type_right a{ line-height: 64px;}
     .grade_list_two_vs_two .type_left a,.grade_list_two_vs_two .type_right a{line-height: 27px; }
     .type_center{  height:64px;  }
+     .tj_game_win_cup img{ margin-top: 5px;}
 }
 
 

@@ -55,7 +55,7 @@
 							<img src="images/game_logo.jpg" class="img-responsive">
 						</div>
 						<div class="col-xs-2 tj_game_win_cup">
-							<img src="images/win_cup.png">
+							<img src="images/win_cup.png" class="img-responsive" />
 						</div>
 						<div class="col-xs-6">
 							<div class="col-xs-6  tj_game_grade_num">
@@ -84,8 +84,10 @@
 								<div class="tj_game_num_line"></div>
 							</div>
 						</div>
-
-						<div class="col-xs-4 col-xs-offset-2 tj_game_logo">
+						<div class="col-xs-2 tj_game_win_cup">
+							&nbsp;
+						</div>
+						<div class="col-xs-4  tj_game_logo">
 							<img src="images/game_logo.jpg" class="img-responsive">
 						</div>
 						<!--此处木有奖杯了-->
@@ -505,7 +507,6 @@
 					var s_t1 = t1.offsetTop,
 						s_t2 = t2.offsetTop,
 						s_t3 = t3.offsetTop;
-						
 					if (s >= s_t1 && s < s_t2 - 60) {
 						fixh2.style.display = 'block'
 						fixh2.innerText = t1.innerText;
