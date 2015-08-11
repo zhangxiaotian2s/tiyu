@@ -112,20 +112,27 @@ visibility: hidden;
 .game_gl_box h2{ text-align: center; font-size: 1.2rem; font-weight: normal; height: 36px; line-height: 2.2rem;}
 
 .game_gl_center{  height: 100%;  background-size:contain; }
-.game_gl_type_blue .game_gl_center{background:#293e85 url(../images/bk_gl1.jpg) no-repeat center right;}
-.game_gl_type_red .game_gl_center{background:#c63336 url(../images/bk_gl2.jpg) no-repeat center left;}
+.game_gl_left_blue .game_gl_center{background:#293e85 url(../images/bk_gl_l_1.jpg) no-repeat center right;}
+.game_gl_left_red .game_gl_center{background:#c73132 url(../images/bk_gl_l_2.jpg) no-repeat center right;}
+.game_gl_right_blue .game_gl_center{background:#293e85 url(../images/bk_gl_r_2.jpg) no-repeat center left;}
+.game_gl_right_red .game_gl_center{background:#c73132 url(../images/bk_gl_r_1.jpg) no-repeat center left;}
+
 .game_gl_center div p{ text-align: center; font-size: 1.1rem; color: #000; margin: 5px auto;}
-.game_gl_type_red  .game_gl_center div p,.game_gl_type_blue  .game_gl_center div p{ color: #FFFFFF;}
+
+.game_gl_right_red   .game_gl_center div p,.game_gl_right_blue .game_gl_center div p,.game_gl_left_blue  .game_gl_center div p,.game_gl_left_red  .game_gl_center div p{ color: #FFFFFF;}
 .game_gl_left p a, .game_gl_right p a{ color: #000000;}
 .game_gl_left{height: 100%; }
-.game_gl_type_blue .game_gl_left{background: #293E85;}
+.game_gl_left_blue .game_gl_left{background: #293E85;}
+.game_gl_left_red .game_gl_left{background: #c73132;}
+.game_gl_right_red .game_gl_right{ background:#c73132;}
+.game_gl_right_blue .game_gl_right{ background:#293E85;}
+
 .game_gl_left p,.game_gl_right p{ width: 100%; text-align: center; margin: 5px auto; font-size: 1.1rem; }
 .game_gl_type_red .game_gl_left p a{ color:#000;}
-.game_gl_type_blue .game_gl_left p a{ color: #FFFFFF;}
+.game_gl_left_blue .game_gl_left p a,.game_gl_left_red .game_gl_left p a,.game_gl_right_red .game_gl_right p a,.game_gl_right_blue .game_gl_right p a{ color: #FFFFFF;}
+
 .game_gl_right{height: 100%; }
-.game_gl_type_red .game_gl_right{ background:#c63336;}
-.game_gl_type_blue .game_gl_right p a{ color:#000;}
-.game_gl_type_red .game_gl_right p a{ color: #FFFFFF;}
+
 .game_gl_left img ,.game_gl_right img{ display: block; width: 80%; margin:  auto;}
 
 
